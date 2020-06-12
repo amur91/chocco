@@ -1,0 +1,20 @@
+.contacts {
+  font-style: normal;
+  margin-top: 2%;
+  margin-right: 8%;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 24px;
+  &:before {
+    content: "";
+    display: inline-block;
+    background: url(./../../assets/phone.png) no-repeat center center;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+  &:hover {
+    text-shadow: 6px 0px 7px rgba(58,136,206,0.6);
+  }
+}

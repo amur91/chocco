@@ -1,0 +1,31 @@
+.first_screen {
+  position: relative;
+background: 
+url(./../../assets/bars.png) bottom 54% right 5% no-repeat,
+url(./../../assets/fon.jpg) bottom right / cover no-repeat;
+}
+.first_screen__berries {
+  position: absolute;
+  bottom: 5%;
+  right: 23.5%;
+}
+.first_screen__blackberries {
+  position: absolute;
+  bottom: -7%;
+  right: 8%;
+}
+.first_screen__leaves {
+  position: absolute;
+  bottom: 15%;
+  right: 1%;
+}
+.first_screen__leaves2 {
+  position: absolute;
+  bottom: -5%;
+  right: 26.5%;
+}
+.first_screen__leaves3 {
+  position: absolute;
+  bottom: -8%;
+  left: 3%;
+}
