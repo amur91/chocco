@@ -1,20 +1,18 @@
-.menu {
+.menu__list {
   display: flex;
-  cursor: pointer;
-  margin-right: 3px;
-  margin-top: 17px;
+  align-items: center;
   font-size: 18px;
   }
 
-  .menu__item {
-    display: inline-block;
-    margin-right: 20px;
-  }
+.menu__item {
+  display: inline-block;
+  margin-right: 19px;
+}
 
-  .menu__item:last-child {
-    margin-right: 0px;
-  }
-  .menu__title {
-    text-decoration: none;
-    letter-spacing: 0.8px;
-  }
+.menu__item:last-child {
+  margin-right: 0px;
+}
+.menu__link {
+  text-decoration: none;
+  letter-spacing: 0.9px;
+}

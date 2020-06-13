@@ -1,8 +1,14 @@
-body, html {
-  font-family: 'Alegreya Sans', sans-serif;
+$green: #365a49;
+$blue: #86c3d7;
+$containerWidth: 940px;
+
+body {
+  font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
   color: white;
+  line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 body, html {
   height: 100%;
@@ -29,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .container {
   margin: 0 auto;
-  width: 1100px;
+  width: $containerWidth;
 }
 button {
   border: none;
@@ -41,14 +47,18 @@ table {
   border-spacing: 0;
 }
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  position: relative;
   min-height: 100%;
   overflow: hidden;
-  min-width: 1200px;
+  width: 100%;
+  min-width: $containerWidth + 20px;
+  min-height: 100%;
 }
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
-$green: #365a49;
+footer {
+  position: relative;
+  width: 100%;
+}

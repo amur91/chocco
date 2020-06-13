@@ -1,8 +1,10 @@
-body, html {
-  font-family: 'Alegreya Sans', sans-serif;
+body {
+  font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
   color: white;
+  line-height: 1.42;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  position: relative; }
 
 body, html {
   height: 100%; }
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   margin: 0 auto;
-  width: 1100px; }
+  width: 940px; }
 
 button {
   border: none;
@@ -41,15 +43,20 @@ table {
   border-spacing: 0; }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  position: relative;
   min-height: 100%;
   overflow: hidden;
-  min-width: 1200px; }
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%; }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%; }
+
+footer {
+  position: relative;
+  width: 100%; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -356,52 +363,21 @@ template {
 [hidden] {
   display: none; }
 
-.first_screen {
-  position: relative;
-  background: url(./../../assets/bars.png) bottom 54% right 5% no-repeat, url(./../../assets/fon.jpg) bottom right/cover no-repeat; }
-
-.first_screen__berries {
-  position: absolute;
-  bottom: 5%;
-  right: 23.5%; }
-
-.first_screen__blackberries {
-  position: absolute;
-  bottom: -7%;
-  right: 8%; }
-
-.first_screen__leaves {
-  position: absolute;
-  bottom: 15%;
-  right: 1%; }
-
-.first_screen__leaves2 {
-  position: absolute;
-  bottom: -5%;
-  right: 26.5%; }
-
-.first_screen__leaves3 {
-  position: absolute;
-  bottom: -8%;
-  left: 3%; }
-
-.menu {
+.menu__list {
   display: flex;
-  cursor: pointer;
-  margin-right: 3px;
-  margin-top: 17px;
+  align-items: center;
   font-size: 18px; }
 
 .menu__item {
   display: inline-block;
-  margin-right: 20px; }
+  margin-right: 19px; }
 
 .menu__item:last-child {
   margin-right: 0px; }
 
-.menu__title {
+.menu__link {
   text-decoration: none;
-  letter-spacing: 0.8px; }
+  letter-spacing: 0.9px; }
 
 .header {
   display: flex;
@@ -409,84 +385,105 @@ template {
   align-items: center;
   color: white;
   font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 68px; }
+  margin-bottom: 70px; }
 
-.contacts {
-  font-style: normal;
-  margin-top: 2%;
-  margin-right: 8%; }
-
-.contacts__phone {
+.phone-number {
   text-decoration: none;
-  font-size: 24px; }
-  .contacts__phone:before {
-    content: "";
-    display: inline-block;
-    background: url(./../../assets/phone.png) no-repeat center center;
-    height: 15px;
-    width: 15px;
-    margin-right: 5px; }
-  .contacts__phone:hover {
+  font-size: 24px;
+  display: flex;
+  align-items: center; }
+  .phone-number:hover {
     text-shadow: 6px 0px 7px rgba(58, 136, 206, 0.6); }
 
-.logo {
-  margin-left: 7.4%;
-  margin-top: 2%; }
+.phone-number__icon {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px; }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 7%; }
+  background: url(../../assets/big-leaf.png) right bottom no-repeat;
+  background-color: #86c3d7;
+  height: 100vh;
+  min-height: 650px;
+  color: #fff;
+  position: relative; }
+  .hero:before {
+    content: url(./../../assets/greenleaf.png);
+    position: absolute;
+    bottom: -40px;
+    left: 2%; }
+  .hero:after {
+    content: url(./../../assets/berries-and-leaves.png);
+    position: absolute;
+    bottom: -40px;
+    right: 0; }
 
-.hero__title {
+.hero__title-section {
+  width: 46%; }
+
+.hero__main-title {
   font-size: 48px;
   width: 25%;
-  margin-bottom: 13px;
+  margin-bottom: 8px;
+  line-height: 1.2;
   text-transform: uppercase;
   font-weight: 700; }
 
-.hero__description {
+.hero__title-description {
   font-size: 21px;
-  width: 35%;
-  margin-bottom: 30px; }
+  line-height: 1.2;
+  margin-bottom: 31px;
+  padding-right: 15%; }
 
-.hero__list {
+.hero__container {
   display: flex;
-  justify-content: flex-start;
-  margin-bottom: 45px; }
-
-.hero__item {
-  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin-right: 45px; }
-
-.hero__list-pic {
-  height: 45px;
-  width: 50px; }
-
-.hero__attribute {
-  width: 75px;
-  margin-left: 7px;
-  font-style: 16px; }
+  height: 100%;
+  padding: 24px 0 45px;
+  background: url(./../../assets/bars.png) right center/50% auto no-repeat; }
 
 .btn {
-  border-radius: 28px;
-  padding: 18px 36px;
+  border-radius: 100px;
+  padding: 18px 33px;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.65px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 19px;
   display: inline-block;
-  background: white;
-  color: #365a49; }
-  .btn:hover {
-    background: #365a49;
-    color: white; }
+  line-height: 1; }
   .btn-hero {
     margin-bottom: 70px; }
+
+.btn_white {
+  background: white;
+  color: #365a49; }
+  .btn_white:hover {
+    background: #365a49;
+    color: white; }
+
+.features {
+  display: flex;
+  justify-content: flex-start; }
+
+.features__item {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px; }
+  .features__item:last-child {
+    margin-right: 0; }
+
+.feature {
+  display: flex; }
+
+.feature__icon {
+  width: 45px;
+  margin-right: 7px; }
+
+.feature__text {
+  font-size: 16px;
+  max-width: 85px;
+  line-height: 1.2; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,38 +1,45 @@
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 7%;
+  background:  url(../../assets/big-leaf.png) right bottom no-repeat;
+  background-color: $blue;
+  height: 100vh;
+  min-height: 650px;
+  color: #fff;
+  position: relative;
+  &:before {
+    content: url(./../../assets/greenleaf.png);
+    position: absolute;
+    bottom: -40px;
+    left: 2%;
+  }
+  &:after {
+    content: url(./../../assets/berries-and-leaves.png);
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+  }
 }
-.hero__title {
+.hero__title-section {
+  width: 46%;
+}
+.hero__main-title {
   font-size: 48px;
   width: 25%;
-  margin-bottom: 13px;
+  margin-bottom: 8px;
+  line-height: 1.2;
   text-transform: uppercase;
   font-weight: 700;
 }
-.hero__description {
+.hero__title-description {
   font-size: 21px;
-  width: 35%;
-  margin-bottom: 30px;
+  line-height: 1.2;
+  margin-bottom: 31px;
+  padding-right: 15%;
 }
-.hero__list {
+.hero__container {
   display: flex;
-  justify-content: flex-start;
-  margin-bottom: 45px;
-}
-.hero__item {
-  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin-right: 45px;
-}
-.hero__list-pic {
-height: 45px;
-width: 50px;
-}
-.hero__attribute {
-  width: 75px;
-  margin-left: 7px;
-  font-style: 16px;
+  height: 100%;
+  padding: 24px 0 45px;
+  background: url(./../../assets/bars.png) right center / 50% auto no-repeat;
 }
