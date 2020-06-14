@@ -1,6 +1,8 @@
 .reviews__display {
   background-color: #f8faf9;
-  background: url(./../../assets/black-and-white_berries.psd) right top 10% no-repeats;
+  background-image: url("../assets/black-and-white_berries.png");
+  background-position: right top 10%;
+  background-repeat: no-repeat;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
   overflow: hidden;

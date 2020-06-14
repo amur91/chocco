@@ -1,18 +1,18 @@
 .hero {
-  background:  url(../../assets/big-leaf.png) right bottom no-repeat;
+  background:  url(../assets/big-leaf.png) right bottom no-repeat;
   background-color: $blue;
   height: 100vh;
   min-height: 650px;
   color: #fff;
   position: relative;
   &:before {
-    content: url(./../../assets/greenleaf.png);
+    content: url(../assets/greenleaf.png);
     position: absolute;
     bottom: -40px;
     left: 2%;
   }
   &:after {
-    content: url(./../../assets/berries-and-leaves.png);
+    content: url(../assets/berries-and-leaves.png);
     position: absolute;
     bottom: -40px;
     right: 0;
@@ -41,5 +41,5 @@
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px;
-  background: url(./../../assets/bars.png) right center / 50% auto no-repeat;
+  background: url(../assets/bars.png) right center / 50% auto no-repeat;
 }

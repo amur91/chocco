@@ -1,14 +1,14 @@
 .reviews-section {
   position: relative;
-  background: url(./../../assets/pattern.png) left bottom -33% no-repeat;
+  background: url(../assets/pattern.png) left bottom -33% no-repeat;
   &:before {
-    content: url(./../../assets/berries.png);
+    content: url(../assets/berries.png);
     position: absolute;
     bottom: -80px;
     left: 0;
   }
   &:after {
-    content: url(./../../assets/strawberry.png);
+    content: url(../assets/strawberry.png);
     position: absolute;
     top: 10px;
     right: 10%;

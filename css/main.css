@@ -402,19 +402,19 @@ template {
   margin-right: 6px; }
 
 .hero {
-  background: url(../../assets/big-leaf.png) right bottom no-repeat;
+  background: url(../assets/big-leaf.png) right bottom no-repeat;
   background-color: #86c3d7;
   height: 100vh;
   min-height: 650px;
   color: #fff;
   position: relative; }
   .hero:before {
-    content: url(./../../assets/greenleaf.png);
+    content: url(../assets/greenleaf.png);
     position: absolute;
     bottom: -40px;
     left: 2%; }
   .hero:after {
-    content: url(./../../assets/berries-and-leaves.png);
+    content: url(../assets/berries-and-leaves.png);
     position: absolute;
     bottom: -40px;
     right: 0; }
@@ -442,7 +442,7 @@ template {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px;
-  background: url(./../../assets/bars.png) right center/50% auto no-repeat; }
+  background: url(../assets/bars.png) right center/50% auto no-repeat; }
 
 .btn {
   border-radius: 100px;
@@ -522,7 +522,7 @@ template {
   padding: 0 3%;
   position: relative; }
   .benefits__item:before {
-    content: url(./../../assets/separator.png);
+    content: url(./../assets/separator.png);
     position: absolute;
     top: 55px;
     right: 0;
@@ -568,16 +568,18 @@ template {
 
 .benefits-section {
   position: relative;
-  background: url(./../../assets/white-leaf.png) left top 57% no-repeat; }
+  background: url(./../assets/white-leaf.png) left top 57% no-repeat; }
   .benefits-section:before {
-    content: url(./../../assets/raspberry.png);
+    content: url(./../assets/raspberry.png);
     position: absolute;
     bottom: -70px;
     left: 0; }
 
 .reviews__display {
   background-color: #f8faf9;
-  background: url(./../../assets/black-and-white_berries.psd) right top 10% no-repeats;
+  background-image: url("../assets/black-and-white_berries.png");
+  background-position: right top 10%;
+  background-repeat: no-repeat;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -659,14 +661,14 @@ template {
 
 .reviews-section {
   position: relative;
-  background: url(./../../assets/pattern.png) left bottom -33% no-repeat; }
+  background: url(../assets/pattern.png) left bottom -33% no-repeat; }
   .reviews-section:before {
-    content: url(./../../assets/berries.png);
+    content: url(../assets/berries.png);
     position: absolute;
     bottom: -80px;
     left: 0; }
   .reviews-section:after {
-    content: url(./../../assets/strawberry.png);
+    content: url(../assets/strawberry.png);
     position: absolute;
     top: 10px;
     right: 10%; }
