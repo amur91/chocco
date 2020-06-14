@@ -1,6 +1,6 @@
 body {
   font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
-  color: white;
+  color: #666666;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   margin: 0 auto;
-  width: 940px; }
+  width: 940px;
+  position: relative; }
 
 button {
   border: none;
@@ -483,7 +484,95 @@ template {
 
 .feature__text {
   font-size: 16px;
-  max-width: 85px;
+  max-width: 75px;
   line-height: 1.2; }
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section_title {
+  font-weight: 700;
+  margin-bottom: 60px;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+
+.headline {
+  text-align: center;
+  margin-bottom: 60px; }
+
+.headline__title {
+  margin-bottom: 0px; }
+
+.headline__subtitle {
+  padding: 0 26%;
+  letter-spacing: 0.9px;
+  line-height: 1.5; }
+
+.benefits {
+  display: flex; }
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative; }
+  .benefits__item:before {
+    content: url(./../../assets/separator.png);
+    position: absolute;
+    top: 55px;
+    right: 0;
+    transform: translateX(50%); }
+  .benefits__item:first-child {
+    padding-left: 0; }
+  .benefits__item:last-child {
+    padding-right: 0; }
+    .benefits__item:last-child:before {
+      display: none; }
+
+.benefit {
+  text-align: center; }
+
+.benefit__image {
+  margin-bottom: 20px; }
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  position: relative;
+  background: #f2f5f4;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.benefit__icon {
+  width: 75px;
+  height: 69px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.benefit__title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 15px; }
+
+.benefit__desc {
+  font-size: 18px;
+  line-height: 1.3; }
+
+.benefits-section {
+  position: relative;
+  background: url(./../../assets/white-leaf.png) left top 57% no-repeat; }
+  .benefits-section:before {
+    content: url(./../../assets/raspberry.png);
+    position: absolute;
+    bottom: -70px;
+    left: 0; }
 
 /*# sourceMappingURL=main.css.map */

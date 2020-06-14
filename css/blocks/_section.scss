@@ -1,0 +1,15 @@
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section_title {
+  font-weight: 700;
+  margin-bottom: 60px;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
