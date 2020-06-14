@@ -453,9 +453,22 @@ template {
   text-decoration: none;
   font-size: 19px;
   display: inline-block;
-  line-height: 1; }
+  line-height: 1;
+  border: none; }
   .btn-hero {
     margin-bottom: 70px; }
+  .btn_color_green {
+    background: #365a49;
+    color: white; }
+    .btn_color_green:hover {
+      background: white;
+      color: #365a49; }
+  .btn_color_transparent {
+    background: transparent;
+    color: black;
+    text-transform: none; }
+    .btn_color_transparent:hover {
+      color: #365a49; }
 
 .btn_white {
   background: white;
@@ -493,8 +506,12 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .section_font-color_green {
+    color: #365a49; }
+    .section_font-color_green .section__title {
+      color: inherit; }
 
-.section_title {
+.section__title {
   font-weight: 700;
   margin-bottom: 60px;
   font-size: 48px;
@@ -568,9 +585,9 @@ template {
 
 .benefits-section {
   position: relative;
-  background: url(./../assets/white-leaf.png) left top 57% no-repeat; }
+  background: url(../assets/white-leaf.png) left top 57% no-repeat; }
   .benefits-section:before {
-    content: url(./../assets/raspberry.png);
+    content: url(../assets/raspberry.png);
     position: absolute;
     bottom: -70px;
     left: 0; }
@@ -578,7 +595,7 @@ template {
 .reviews__display {
   background-color: #f8faf9;
   background-image: url("../assets/black-and-white_berries.png");
-  background-position: right top 10%;
+  background-position: right top;
   background-repeat: no-repeat;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
@@ -666,11 +683,130 @@ template {
     content: url(../assets/berries.png);
     position: absolute;
     bottom: -80px;
-    left: 0; }
+    left: 0;
+    z-index: 1; }
   .reviews-section:after {
     content: url(../assets/strawberry.png);
     position: absolute;
     top: 10px;
     right: 10%; }
+
+.order-section {
+  background-color: #d2ddd9;
+  background: url(../assets/order-pattern.png) center center no-repeat;
+  background-size: 100%;
+  position: relative; }
+  .order-section:before {
+    content: url(../assets/one-green-leaf.png);
+    position: absolute;
+    bottom: 0px;
+    right: 3%; }
+  .order-section:after {
+    content: url(../assets/blueberry.png);
+    position: absolute;
+    bottom: 20px;
+    left: 3%; }
+
+.form {
+  display: flex; }
+
+.form__col {
+  flex: 1;
+  margin-right: 20px; }
+  .form__col:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 18px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  border: solid 3px transparent;
+  padding: 18px 11px; }
+  .form__input:focus {
+    border-color: #dee2bd;
+    outline: none; }
+  .form__input_textarea {
+    height: 180px;
+    resize: none;
+    margin-bottom: 18px; }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap; }
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 45px;
+  margin-bottom: 10px; }
+  .radio_checkbox {
+    margin-bottom: 36px; }
+    .radio_checkbox .radio__visible {
+      border-radius: 0; }
+      .radio_checkbox .radio__visible:before {
+        background: url(../assets/tick.png) center center no-repeat; }
+
+.radio__elem {
+  display: none; }
+  .radio__elem:checked ~ .radio__visible:before {
+    display: block; }
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  background: white;
+  border-radius: 50%;
+  margin-right: 8px; }
+  .radio__visible:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #365a49;
+    display: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.fixed-menu {
+  position: fixed;
+  right: 3%;
+  top: 20%;
+  z-index: 100; }
+
+.fixed-menu__item {
+  margin-bottom: 5px; }
+  .fixed-menu__item_active .fixed-menu__link {
+    border-color: white; }
+
+.fixed-menu__link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
+  position: relative; }
+  .fixed-menu__link:before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=main.css.map */

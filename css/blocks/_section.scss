@@ -4,8 +4,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  &_font-color_green {
+    color: $green;
+    .section__title {
+      color: inherit;
+    }
+  }
 }
-.section_title {
+.section__title {
   font-weight: 700;
   margin-bottom: 60px;
   font-size: 48px;

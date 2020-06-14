@@ -1,0 +1,19 @@
+.order-section {
+  background-color: #d2ddd9;
+  background: url(../assets/order-pattern.png) center center no-repeat;
+  background-size: 100%;
+  position: relative;
+
+  &:before {
+    content: url(../assets/one-green-leaf.png);
+    position: absolute;
+    bottom: 0px;
+    right: 3%;
+  }
+  &:after {
+    content: url(../assets/blueberry.png);
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+  }
+}

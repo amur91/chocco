@@ -8,9 +8,26 @@
   font-size: 19px;
   display: inline-block;
   line-height: 1;
+  border: none;
 
   &-hero {
     margin-bottom: 70px;
+  }
+  &_color_green {
+    background: $green;
+    color: white;
+    &:hover {
+      background: white;
+      color: $green;
+    }
+  }
+  &_color_transparent {
+    background: transparent;
+    color:black;
+    text-transform: none;
+    &:hover {
+      color: $green;
+    }
   }
 }
 .btn_white {
