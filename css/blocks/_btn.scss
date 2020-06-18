@@ -1,17 +1,17 @@
 .btn {
-  border-radius: 100px;
-  padding: 18px 33px;
+  border-radius: rem(100px);
+  padding: rem(18px) rem(33px);
   font-weight: 700;
-  letter-spacing: 0.65px;
+  letter-spacing: rem(0.65px);
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 19px;
+  font-size: rem(19px);
   display: inline-block;
   line-height: 1;
   border: none;
 
   &-hero {
-    margin-bottom: 70px;
+    margin-bottom: rem(70px);
   }
   &_color_green {
     background: $green;

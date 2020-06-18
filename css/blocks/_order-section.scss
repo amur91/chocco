@@ -7,13 +7,13 @@
   &:before {
     content: url(../assets/one-green-leaf.png);
     position: absolute;
-    bottom: 0px;
+    bottom: rem(0px);
     right: 3%;
   }
   &:after {
     content: url(../assets/blueberry.png);
     position: absolute;
-    bottom: 20px;
+    bottom: rem(20px);
     left: 3%;
   }
 }

@@ -1,6 +1,6 @@
 $green: #365a49;
 $blue: #86c3d7;
-$containerWidth: 940px;
+
 
 body {
   font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
@@ -12,6 +12,7 @@ body {
 }
 body, html {
   height: 100%;
+  font-size: 18px;
 }
 a {
   color: inherit;
@@ -35,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .container {
   margin: 0 auto;
-  width: $containerWidth;
+  width: 95%;
+  max-width: $containerWidth;
   position: relative;
 }
 button {
@@ -52,7 +54,6 @@ table {
   min-height: 100%;
   overflow: hidden;
   width: 100%;
-  min-width: $containerWidth + 20px;
   min-height: 100%;
 }
 img {

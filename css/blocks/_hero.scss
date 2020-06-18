@@ -2,19 +2,19 @@
   background:  url(../assets/big-leaf.png) right bottom no-repeat;
   background-color: $blue;
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   color: #fff;
   position: relative;
   &:before {
     content: url(../assets/greenleaf.png);
     position: absolute;
-    bottom: -40px;
+    bottom: rem(-40px);
     left: 2%;
   }
   &:after {
     content: url(../assets/berries-and-leaves.png);
     position: absolute;
-    bottom: -40px;
+    bottom: rem(-40px);
     right: 0;
   }
 }
@@ -22,17 +22,17 @@
   width: 46%;
 }
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   width: 25%;
-  margin-bottom: 8px;
+  margin-bottom: rem(8px);
   line-height: 1.2;
   text-transform: uppercase;
   font-weight: 700;
 }
 .hero__title-description {
-  font-size: 21px;
+  font-size: rem(21px);
   line-height: 1.2;
-  margin-bottom: 31px;
+  margin-bottom: rem(31px);
   padding-right: 15%;
 }
 .hero__container {
@@ -40,6 +40,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px;
+  padding: rem(24px) 0 rem(45px);
   background: url(../assets/bars.png) right center / 50% auto no-repeat;
 }

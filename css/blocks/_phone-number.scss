@@ -1,14 +1,14 @@
 .phone-number {
   text-decoration: none;
-  font-size: 24px;
+  font-size: rem(24px);
   display: flex;
   align-items: center;
   &:hover {
-    text-shadow: 6px 0px 7px rgba(58,136,206,0.6);
+    text-shadow: rem(6px) rem(0px) rem(7px) rgba(58,136,206,0.6);
   }
 }
 .phone-number__icon {
-  height: 12px;
-  width: 12px;
-  margin-right: 6px;
+  height: rem(12px);
+  width: rem(12px);
+  margin-right: rem(6px);
 }
