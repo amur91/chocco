@@ -789,6 +789,8 @@ template {
   margin-bottom: 5px; }
   .fixed-menu__item_active .fixed-menu__link {
     border-color: white; }
+  .fixed-menu__item:hover {
+    border-color: white; }
 
 .fixed-menu__link {
   width: 16px;
@@ -808,5 +810,9 @@ template {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.logo__pic {
+  width: 53px;
+  height: 39px; }
 
 /*# sourceMappingURL=main.css.map */
