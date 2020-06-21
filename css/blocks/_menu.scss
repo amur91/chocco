@@ -1,5 +1,14 @@
+.menu {
+  margin: 0 30px;
+  padding-top: 5px;
+  @include tablets {
+    display: none;
+  }
+}
 .menu__list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   font-size: rem(18px);
   }
@@ -7,6 +16,7 @@
 .menu__item {
   display: inline-block;
   margin-right: rem(19px);
+  margin-bottom: rem(10px);
 }
 
 .menu__item:last-child {
@@ -15,4 +25,5 @@
 .menu__link {
   text-decoration: none;
   letter-spacing: rem(0.9px);
+  white-space: nowrap;
 }

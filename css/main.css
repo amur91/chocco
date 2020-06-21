@@ -1,68 +1,1038 @@
-/*
-Error: Undefined variable: "$containerWidth".
-        on line 40 of /Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/layout/_base.scss
-        from line 2 of /Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/main.scss
+html {
+  font-size: 18px; }
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 17px; } }
+  @media screen and (max-width: 480px) {
+    html {
+      font-size: 16px; } }
 
-Backtrace:
-/Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/layout/_base.scss:40
-/Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/main.scss:2
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/private/var/folders/97/df4_z11d72v8ghqbnv1jp4040000gn/T/AppTranslocation/B8D061A5-CE5E-4C6C-BD68-F3C388D68EC9/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$containerWidth\".\A         on line 40 of /Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/layout/_base.scss\A         from line 2 of /Users/elizavetamozgaleva/Desktop/project/amur91.github.io/chocco/css/main.scss"; }
+body {
+  font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
+  color: #666666;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative; }
+
+body, html {
+  height: 100%; }
+
+a {
+  color: inherit; }
+
+p {
+  margin-top: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+ul li {
+  list-style: none; }
+
+* {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal; }
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 940px;
+  position: relative; }
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+footer {
+  position: relative;
+  width: 100%; }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+.menu {
+  margin: 0 30px;
+  padding-top: 5px; }
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none; } }
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem; }
+
+.menu__item {
+  display: inline-block;
+  margin-right: 1.0555555556rem;
+  margin-bottom: 0.5555555556rem; }
+
+.menu__item:last-child {
+  margin-right: 0rem; }
+
+.menu__link {
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  white-space: nowrap; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 3.8888888889rem; }
+
+@media screen and (max-width: 768px) {
+  .phone-number.header__phone-number {
+    display: none; } }
+
+.phone-number {
+  text-decoration: none;
+  font-size: 1.3333333333rem;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.8333333333rem; }
+  .phone-number:hover {
+    text-shadow: 0.3333333333rem 0rem 0.3888888889rem rgba(58, 136, 206, 0.6); }
+  .phone-number_theme_green {
+    color: #365a49; }
+    .phone-number_theme_green:hover {
+      text-shadow: 0.3333333333rem 0rem 0.3888888889rem; }
+
+.phone-number__icon {
+  height: 0.6666666667rem;
+  width: 0.6666666667rem;
+  margin-right: 0.3333333333rem;
+  flex-shrink: 0;
+  fill: white; }
+
+.phone-number__icon_green {
+  fill: #365a49; }
+
+.phone-number__text {
+  white-space: nowrap; }
+
+.hero {
+  background: url(../assets/big-leaf.png) right bottom no-repeat;
+  background-color: #86c3d7;
+  height: 100vh;
+  min-height: 36.1111111111rem;
+  color: #fff;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .hero {
+      background-position: right bottom 88%; } }
+  @media screen and (max-width: 768px) {
+    .hero:before, .hero:after {
+      display: none; } }
+  .hero:before {
+    content: url(../assets/greenleaf.png);
+    position: absolute;
+    bottom: -2.2222222222rem;
+    left: 2%; }
+  .hero:after {
+    content: url(../assets/berries-and-leaves.png);
+    position: absolute;
+    bottom: -2.2222222222rem;
+    right: 0; }
+
+.hero__title-section {
+  width: 46%; }
+  @media screen and (max-width: 768px) {
+    .hero__title-section {
+      width: 100%;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .hero__title-section:before {
+        content: "";
+        width: 17.5555555556rem;
+        height: 18.3333333333rem;
+        background: url(../assets/hero-bars.png) center center/contain no-repeat;
+        margin-bottom: 0.8888888889rem; } }
+
+.hero__main-title {
+  font-size: 2.6666666667rem;
+  margin-bottom: 0.4444444444rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.hero__title-description {
+  font-size: 1.1666666667rem;
+  line-height: 1.2;
+  padding-right: 10%;
+  margin-bottom: 1.7222222222rem; }
+  @media screen and (max-width: 768px) {
+    .hero__title-description {
+      padding: 0 26%; } }
+  @media screen and (max-width: 480px) {
+    .hero__title-description {
+      padding: 0 16%; } }
+
+@media screen and (max-width: 768px) {
+  .hero__icons-section {
+    display: none; } }
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1.3333333333rem 0 2.5rem;
+  background: url(../assets/bars.png) right center/50% auto no-repeat; }
+  @media screen and (max-width: 768px) {
+    .hero__container {
+      background: none; } }
+
+.btn {
+  border-radius: 5.5555555556rem;
+  padding: 1rem 1.8333333333rem;
+  font-weight: 700;
+  letter-spacing: 0.0361111111rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.0555555556rem;
+  display: inline-block;
+  line-height: 1;
+  border: none; }
+  .btn-hero {
+    margin-bottom: 3.8888888889rem; }
+  .btn_color_green {
+    background: #365a49;
+    color: white; }
+    .btn_color_green:hover {
+      background: white;
+      color: #365a49; }
+  .btn_color_transparent {
+    background: transparent;
+    color: black;
+    text-transform: none; }
+    .btn_color_transparent:hover {
+      color: #365a49; }
+
+.btn_white {
+  background: white;
+  color: #365a49; }
+  .btn_white:hover {
+    background: #365a49;
+    color: white; }
+
+.features {
+  display: flex;
+  justify-content: flex-start; }
+
+.features__item {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2.2222222222rem; }
+  .features__item:last-child {
+    margin-right: 0; }
+
+.feature {
+  display: flex; }
+
+.feature__icon {
+  width: 2.5rem;
+  margin-right: 0.3888888889rem; }
+
+.feature__text {
+  font-size: 0.8888888889rem;
+  max-width: 4.1666666667rem;
+  line-height: 1.2; }
+
+.section {
+  height: 100vh;
+  min-height: 36.1111111111rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section_font-color_green {
+    color: #365a49; }
+    .section_font-color_green .section__title {
+      color: inherit; }
+
+.section__title {
+  font-weight: 700;
+  margin-bottom: 3.3333333333rem;
+  font-size: 2.6666666667rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+
+.headline {
+  text-align: center;
+  margin-bottom: 3.3333333333rem; }
+
+.headline__title {
+  margin-bottom: 0rem; }
+
+.headline__subtitle {
+  padding: 0 26%;
+  line-height: 1.5; }
+  @media screen and (max-width: 480px) {
+    .headline__subtitle {
+      padding: 0 0; } }
+
+.benefits {
+  display: flex; }
+  @media screen and (max-width: 480px) {
+    .benefits {
+      flex-direction: column; } }
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative; }
+  @media screen and (max-width: 480px) {
+    .benefits__item {
+      padding: 0;
+      margin-bottom: 1.0555555556rem; } }
+  .benefits__item:before {
+    content: url(./../assets/separator.png);
+    position: absolute;
+    top: 3.0555555556rem;
+    right: 0;
+    transform: translateX(50%); }
+    @media screen and (max-width: 480px) {
+      .benefits__item:before {
+        display: none; } }
+  .benefits__item:first-child {
+    padding-left: 0; }
+  .benefits__item:last-child {
+    padding-right: 0; }
+    .benefits__item:last-child:before {
+      display: none; }
+
+.benefit {
+  text-align: center; }
+  @media screen and (max-width: 480px) {
+    .benefit {
+      display: flex;
+      text-align: left; } }
+
+.benefit__image {
+  margin-bottom: 1.1111111111rem; }
+  @media screen and (max-width: 480px) {
+    .benefit__image {
+      margin-bottom: 0;
+      margin-right: 1.1111111111rem; } }
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  background: #f2f5f4;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.benefit__icon {
+  width: 4.1666666667rem;
+  height: 3.8333333333rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.benefit__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8333333333rem; }
+
+.benefit__desc {
+  font-size: 1rem;
+  line-height: 1.3; }
+
+.benefits-section {
+  position: relative;
+  background: url(../assets/white-leaf.png) left top 57% no-repeat; }
+  @media screen and (max-width: 768px) {
+    .benefits-section {
+      background-position: left top 10%; } }
+  @media screen and (max-width: 480px) {
+    .benefits-section {
+      background: none; } }
+  .benefits-section:before {
+    content: url(../assets/raspberry.png);
+    position: absolute;
+    bottom: -3.8888888889rem;
+    left: 0; }
+
+.reviews__display {
+  background-color: #f8faf9;
+  background-image: url("../assets/black-and-white_berries.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 2.7777777778rem 2.5rem 1.8888888889rem;
+  margin-bottom: 1.1111111111rem;
+  overflow: hidden;
+  position: relative; }
+  .reviews__display:before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -3.6111111111rem; }
+
+.rewiews__display-inner {
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .rewiews__display-inner {
+      flex-direction: column;
+      text-align: center;
+      align-items: center; } }
+
+.reviews__avatar {
+  width: 14.1111111111rem;
+  height: 14.4444444444rem; }
+  @media screen and (max-width: 768px) {
+    .reviews__avatar {
+      width: 7.2222222222rem;
+      height: 7.3333333333rem; } }
+
+.reviews__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+.reviews__content {
+  flex: 1;
+  margin-left: 1.1111111111rem; }
+
+.reviews__title {
+  font-size: 1.6666666667rem;
+  font-weight: 700;
+  margin-bottom: 0.8888888889rem;
+  margin-top: 0.5555555556rem;
+  color: black; }
+
+.reviews__text {
+  margin-bottom: 1.6666666667rem;
+  padding-right: 23%;
+  font-size: 1rem;
+  line-height: 1.2; }
+  @media screen and (max-width: 768px) {
+    .reviews__text {
+      padding-right: 0%; } }
+
+.reviews__author {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black; }
+
+.reviews__switcher {
+  display: flex;
+  justify-content: center; }
+
+.interactive-avatar {
+  width: 4.4444444444rem;
+  height: 4.4444444444rem;
+  position: relative; }
+
+.interactive-avatar__link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: 0.3333333333rem solid transparent;
+  border-radius: 50%;
+  overflow: hidden; }
+  .interactive-avatar__link:hover, .interactive-avatar__link:focus {
+    background: #0f5a47;
+    outline: none; }
+
+.interactive-avatar_active .interactive-avatar__link {
+  background: #0f5a47;
+  outline: none; }
+
+.interactive-avatar__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.reviews-section {
+  position: relative;
+  background: url(../assets/pattern.png) left bottom -33% no-repeat; }
+  .reviews-section:before {
+    content: url(../assets/berries.png);
+    position: absolute;
+    bottom: -4.4444444444rem;
+    left: 0;
+    z-index: 1; }
+  .reviews-section:after {
+    content: url(../assets/strawberry.png);
+    position: absolute;
+    top: 0.5555555556rem;
+    right: 10%; }
+
+.order-section {
+  background-color: #d2ddd9;
+  background: url(../assets/order-pattern.png) center center/cover no-repeat;
+  position: relative; }
+  .order-section:before {
+    content: url(../assets/one-green-leaf.png);
+    position: absolute;
+    bottom: 0rem;
+    right: 3%; }
+  .order-section:after {
+    content: url(../assets/blueberry.png);
+    position: absolute;
+    bottom: 1.1111111111rem;
+    left: 3%; }
+
+.form {
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .form {
+      flex-direction: column;
+      padding: 0 19%; } }
+  @media screen and (max-width: 480px) {
+    .form {
+      padding: 0; } }
+
+.form__col {
+  flex: 1;
+  margin-right: 1.1111111111rem; }
+  .form__col:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .form__col {
+      margin-right: 0; } }
+
+.form__row {
+  display: flex;
+  margin-bottom: 1rem; }
+  @media screen and (max-width: 768px) {
+    .form__row {
+      margin-bottom: 0.8333333333rem; } }
+
+.form__block {
+  flex: 1;
+  margin-right: 1.1111111111rem; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  border: solid 0.1666666667rem transparent;
+  padding: 1rem 0.6111111111rem; }
+  @media screen and (max-width: 768px) {
+    .form__input {
+      padding: 0.3333333333rem 0.8333333333rem; } }
+  .form__input:focus {
+    border-color: #dee2bd;
+    outline: none; }
+  .form__input_textarea {
+    height: 10rem;
+    resize: none;
+    margin-bottom: 1rem; }
+    @media screen and (max-width: 768px) {
+      .form__input_textarea {
+        height: 5rem;
+        margin-bottom: 0.6666666667rem; } }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 480px) {
+    .form__controls {
+      justify-content: center; } }
+
+.form__btns {
+  display: flex;
+  justify-content: center; }
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 2.5rem;
+  margin-bottom: 0.5555555556rem; }
+  .radio_checkbox {
+    margin-bottom: 2rem; }
+    .radio_checkbox .radio__visible {
+      border-radius: 0; }
+      .radio_checkbox .radio__visible:before {
+        background: url(../assets/tick.png) center center no-repeat; }
+
+.radio__elem {
+  position: absolute;
+  top: 0;
+  left: -555.5rem; }
+  .radio__elem:checked ~ .radio__visible:before {
+    display: block; }
+
+.radio__visible {
+  width: 1.4444444444rem;
+  height: 1.4444444444rem;
+  position: relative;
+  background: white;
+  border-radius: 50%;
+  margin-right: 0.4444444444rem; }
+  .radio__visible:before {
+    content: "";
+    width: 0.7777777778rem;
+    height: 0.7777777778rem;
+    background: #365a49;
+    display: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.fixed-menu {
+  position: fixed;
+  right: 3%;
+  top: 20%;
+  z-index: 100; }
+
+.fixed-menu__item {
+  margin-bottom: 0.2777777778rem; }
+  .fixed-menu__item_active .fixed-menu__link {
+    border-color: white; }
+
+.fixed-menu__item .fixed-menu__link:hover {
+  border-color: white; }
+
+.fixed-menu__link {
+  width: 0.8888888889rem;
+  height: 0.8888888889rem;
+  border-radius: 50%;
+  border: 0.0555555556rem solid transparent;
+  display: block;
+  position: relative; }
+  .fixed-menu__link:before {
+    content: "";
+    display: block;
+    width: 0.3333333333rem;
+    height: 0.3333333333rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.logo__pic {
+  width: 2.9444444444rem;
+  height: 2.1666666667rem; }
+
+.map-section {
+  background: url(../assets/map.jpg) center center/cover no-repeat; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: white; }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 480px) {
+    .footer-container {
+      flex-direction: column; } }
+
+.socials {
+  display: flex;
+  align-items: center; }
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.1111111111rem; }
+
+.socials__item:last-child {
+  margin-right: 0; }
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 1.1111111111rem;
+  height: 1.1111111111rem;
+  background: center center no-repeat; }
+
+.socials__pic {
+  width: 1.1111111111rem;
+  height: 1.1111111111rem;
+  fill: #b3b3b3; }
+
+.socials__link:hover .socials__pic {
+  fill: black; }
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1111111111rem;
+  font-style: normal;
+  color: black;
+  width: 100%; }
+  @media screen and (max-width: 480px) {
+    .contacts {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+.contacts__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  @media screen and (max-width: 480px) {
+    .contacts__col {
+      align-items: center; } }
+
+.hamburger {
+  width: 24px;
+  height: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .hamburger {
+      display: inline-flex; } }
+
+.hamburger__plank {
+  display: block;
+  background: #fff;
+  height: 4px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,16 @@
 $green: #365a49;
 $blue: #86c3d7;
+$containerWidth: 940px;
 
-
+html {
+  font-size: 18px;
+  @include tablets {
+    font-size: 17px;
+  }
+  @include phones {
+    font-size: 16px;
+  }
+}
 body {
   font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
   color: #666666;
@@ -10,9 +19,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
 }
+
 body, html {
   height: 100%;
-  font-size: 18px;
 }
 a {
   color: inherit;

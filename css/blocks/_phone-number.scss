@@ -2,13 +2,28 @@
   text-decoration: none;
   font-size: rem(24px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: rem(15px);
   &:hover {
     text-shadow: rem(6px) rem(0px) rem(7px) rgba(58,136,206,0.6);
+  }
+  &_theme_green {
+    color: $green;
+    &:hover {
+      text-shadow: rem(6px) rem(0px) rem(7px);
+    }
   }
 }
 .phone-number__icon {
   height: rem(12px);
   width: rem(12px);
   margin-right: rem(6px);
+  flex-shrink: 0;
+  fill: white;
+}
+.phone-number__icon_green {
+  fill: $green;
+}
+.phone-number__text {
+  white-space: nowrap;
 }

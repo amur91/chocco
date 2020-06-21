@@ -5,6 +5,14 @@
   min-height: rem(650px);
   color: #fff;
   position: relative;
+    @include tablets {
+      background-position: right bottom 88%;
+    }
+  &:before, &:after {
+    @include tablets {
+      display: none;
+    }
+  }
   &:before {
     content: url(../assets/greenleaf.png);
     position: absolute;
@@ -20,10 +28,27 @@
 }
 .hero__title-section {
   width: 46%;
+
+  @include tablets {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+    &:before {
+      content: "";
+      width: rem(316px);
+      height: rem(330px);
+      background: url(../assets/hero-bars.png) center center / contain no-repeat;
+      margin-bottom: rem(16px);
+    }
+  }
 }
 .hero__main-title {
   font-size: rem(48px);
-  width: 25%;
   margin-bottom: rem(8px);
   line-height: 1.2;
   text-transform: uppercase;
@@ -32,8 +57,19 @@
 .hero__title-description {
   font-size: rem(21px);
   line-height: 1.2;
+  padding-right: 10%;
   margin-bottom: rem(31px);
-  padding-right: 15%;
+  @include tablets {
+    padding: 0 26%;
+  }
+  @include phones {
+    padding: 0 16%;
+  }
+}
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
 }
 .hero__container {
   display: flex;
@@ -42,4 +78,8 @@
   height: 100%;
   padding: rem(24px) 0 rem(45px);
   background: url(../assets/bars.png) right center / 50% auto no-repeat;
+
+  @include tablets {
+    background: none;
+  }
 }

@@ -23,10 +23,20 @@
 }
 .rewiews__display-inner {
   display: flex;
+  @include tablets {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 .reviews__avatar {
   width: rem(254px);
   height: rem(260px);
+
+  @include tablets {
+    width: rem(130px);
+    height: rem(132px);
+  }
 }
 .reviews__avatar-img {
   object-fit: cover;
@@ -49,6 +59,9 @@
   padding-right: 23%;
   font-size: rem(18px);
   line-height: 1.2;
+  @include tablets {
+    padding-right: 0%;
+  }
 }
 .reviews__author {
   font-size: rem(18px);

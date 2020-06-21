@@ -1,3 +1,7 @@
+//Breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 @import "./layout/_media.scss";
 @import "./layout/_base.scss";
 @import "./layout/_normalize.scss";
@@ -21,3 +25,8 @@
 @import "./blocks/_radio.scss";
 @import "./blocks/_fixed-menu.scss";
 @import "./blocks/_logo.scss";
+@import "./blocks/_map-section.scss";
+@import "./blocks/_footer.scss";
+@import "./blocks/_socials.scss";
+@import "./blocks/_contacts.scss";
+@import "./blocks/_hamburger.scss";

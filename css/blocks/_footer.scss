@@ -1,0 +1,12 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  @include phones {
+    flex-direction: column;
+  }
+}
