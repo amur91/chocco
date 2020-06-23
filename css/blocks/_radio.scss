@@ -26,6 +26,9 @@
     }
   }
 }
+.radio__elem:focus ~ .radio__visible {
+  background: powderblue;
+}
 .radio__visible {
   width: rem(26px);
   height: rem(26px);

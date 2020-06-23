@@ -5,7 +5,10 @@ html {
       font-size: 17px; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 16px; } }
+      font-size: 14px; } }
+  @media screen and (max-width: 375px) {
+    html {
+      font-size: 12px; } }
 
 body {
   font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
@@ -498,6 +501,9 @@ template {
   @media screen and (max-width: 480px) {
     .hero__title-description {
       padding: 0 16%; } }
+  @media screen and (max-width: 375px) {
+    .hero__title-description {
+      padding: 0 0; } }
 
 @media screen and (max-width: 768px) {
   .hero__icons-section {
@@ -576,6 +582,9 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  @media screen and (max-width: 480px) {
+    .section {
+      min-height: initial; } }
   .section_font-color_green {
     color: #365a49; }
     .section_font-color_green .section__title {
@@ -588,6 +597,9 @@ template {
   text-align: center;
   text-transform: uppercase;
   color: #000; }
+  @media screen and (max-width: 375px) {
+    .section__title {
+      font-size: 2rem; } }
 
 .headline {
   text-align: center;
@@ -687,6 +699,9 @@ template {
     position: absolute;
     bottom: -3.8888888889rem;
     left: 0; }
+    @media screen and (max-width: 375px) {
+      .benefits-section:before {
+        content: ""; } }
 
 .reviews__display {
   background-color: #f8faf9;
@@ -794,11 +809,17 @@ template {
     bottom: -4.4444444444rem;
     left: 0;
     z-index: 1; }
+    @media screen and (max-width: 375px) {
+      .reviews-section:before {
+        content: ""; } }
   .reviews-section:after {
     content: url(../assets/strawberry.png);
     position: absolute;
     top: 0.5555555556rem;
     right: 10%; }
+    @media screen and (max-width: 375px) {
+      .reviews-section:after {
+        content: ""; } }
 
 .order-section {
   background-color: #d2ddd9;
@@ -896,6 +917,9 @@ template {
   left: -555.5rem; }
   .radio__elem:checked ~ .radio__visible:before {
     display: block; }
+
+.radio__elem:focus ~ .radio__visible {
+  background: powderblue; }
 
 .radio__visible {
   width: 1.4444444444rem;

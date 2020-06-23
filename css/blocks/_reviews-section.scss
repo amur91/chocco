@@ -7,11 +7,17 @@
     bottom: rem(-80px);
     left: 0;
     z-index: 1;
+    @include small-phones {
+      content: "";
+    }
   }
   &:after {
     content: url(../assets/strawberry.png);
     position: absolute;
     top: rem(10px);
     right: 10%;
+    @include small-phones {
+      content: "";
+    }
   }
 }

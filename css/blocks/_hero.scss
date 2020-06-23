@@ -65,6 +65,9 @@
   @include phones {
     padding: 0 16%;
   }
+  @include small-phones {
+    padding: 0 0;
+  }
 }
 .hero__icons-section {
   @include tablets {

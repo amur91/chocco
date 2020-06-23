@@ -12,5 +12,8 @@
     position: absolute;
     bottom: rem(-70px);
     left: 0;
+    @include small-phones {
+      content: "";
+    }
   }
 }
