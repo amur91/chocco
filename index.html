@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
+  <script defer src="./assets/_script.js"></script>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
               </span>
               <span class="phone-number__text">8 800 903 90 90</span>
             </a>
-            <a href="" class="hamburger">
+            <a href="" class="hamburger" id="hamburger">
               <span class="hamburger__plank"></span>
               <span class="hamburger__plank"></span>
               <span class="hamburger__plank"></span>
@@ -143,6 +144,88 @@
                   </div>
                 </li>
           </ul>
+        </div>
+      </section>
+      <section class="section slider-section">
+        <div class="container">
+          <div class="slider">
+            <div class="slider__arrow slider__arrow_left">
+                <svg class="slider__arrow-svg"><use xlink:href=./assets/sprite.svg#arrow-left></use></svg>
+            </div>
+            <div class="slider__display">
+              <div class="slider__banner">
+                <img src="./assets/bars-banner.png" alt="chocco bars">
+              </div>
+              <div class="slider__information">
+                <div class="slider__features">
+                  <div class="slider__consist" id="consist">
+                    <svg class="slider__bar-img"><use xlink:href=./assets/sprite.svg#chocolate-bar></use></svg>
+                    <span>Состав</span>
+                    <div class="slider__dropdown dropdown">
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#grape></use></svg>
+                          <div class="dropdown__title">Виноград</div>
+                          <div class="dropdown__weight">25г</div>
+                      </div>
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#nut></use></svg>
+                          <div class="dropdown__title">Грецкий орех</div>
+                          <div class="dropdown__weight">32г</div>
+                      </div>
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#almond></use></svg>
+                          <div class="dropdown__title">Кунжутное семя</div>
+                          <div class="dropdown__weight">20г</div>
+                      </div>
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#powder></use></svg>
+                          <div class="dropdown__title">Сухое молоко</div>
+                          <div class="dropdown__weight">10г</div>
+                      </div>
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#apitherapy></use></svg>
+                          <div class="dropdown__title">Зам.сахара</div>
+                          <div class="dropdown__weight">4г</div>
+                      </div>
+                      <div class="dropdown__row">
+                          <svg class="dropdown__svg"><use xlink:href=./assets/sprite.svg#beans></use></svg>
+                          <div class="dropdown__title">Какао бобы</div>
+                          <div class="dropdown__weight">4г</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Батончик "Гранола Виноград"
+                </h2>
+                <div class="slider__description">
+                    Гранола из винограда, грецкого ореха и кунжутных семечек. В состав
+                    также входят: сухое молоко, заменитель сахара и какао бобы. 
+                </div>
+                <ul class="slider__list">
+                  <li class="slider__item">
+                    <p>
+                      Калорийность &shy; <b>120 ккал</b>
+                    </p>
+                  </li>
+                  <li class="slider__item">
+                    <p>
+                      Вес &shy; <b>98 грамм</b>
+                    </p>
+                  </li>
+                </ul>
+                <div class="slider__row">
+                  <div class="slider__price">140 ₽</div>
+                  <div class="slider__btn">
+                    <a href="" class="btn btn_color_green">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__arrow slider__arrow_right">
+                <svg class="slider__arrow-svg"><use xlink:href=./assets/sprite.svg#arrow-right></use></svg>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section reviews-section">
@@ -340,6 +423,37 @@
         <a href="" class="fixed-menu__link"></a>
       </li>
     </ul>
+  </nav>
+  <nav class="sidebar">
+      <svg class="sidebar__close-icon">
+        <use xlink:href=./assets/sprite.svg#close></use>
+      </svg>
+      <ul class="sidebar__list">
+          <li class="sidebar__item">
+              <a href="#" class="sidebar__link">О нас</a>
+            </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">О нас</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Батончики</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Команда</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Меню</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Отзывы</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Как мы работаем</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">Контакты</a>
+          </li>
+        </ul>
   </nav>
 </body>
 

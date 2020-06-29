@@ -12,6 +12,7 @@
     position: absolute;
     bottom: rem(-70px);
     left: 0;
+    z-index: 5;
     @include small-phones {
       content: "";
     }

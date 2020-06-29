@@ -1,0 +1,128 @@
+.slider {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.slider__arrow {
+  display: flex;
+  align-items: center;
+}
+.slider__arrow_left {
+  @include tablets {
+    margin-left: 10%;
+  }
+}
+.slider__arrow_right {
+  @include tablets {
+    margin-right: 10%;
+  }
+}
+.slider__arrow-svg {
+  width: rem(18px);
+  height: rem(32px);
+  fill: black;
+}
+.slider__display {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  @include tablets {
+    flex-direction: column;
+  }
+}
+.slider__banner {
+  flex: 1;
+}
+.slider__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.7;
+  padding: 0 rem(50px);
+  @include phones {
+    text-align: center;
+  }
+} 
+.slider__features {
+  display: flex;
+  justify-content: space-between;
+  @include tablets {
+    display: none;
+  }
+}
+.slider__consist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $blue;
+  border-radius: 5px;
+  padding: rem(10px) rem(20px);
+  background-color: $blue;
+  color: white;
+  font-size: rem(14px);
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+}
+.slider__bar-img {
+  width: rem(70px);
+  height: rem(70px);
+  fill: white;
+}
+.slider__title {
+  font-size: rem(36px);
+  line-height: 1;
+  margin-top: rem(10px);
+}
+.slider__description {
+  margin-top: rem(15px);
+}
+.slider__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: rem(15px);
+  @include tablets {
+    justify-content: center;
+  }
+}
+.slider__item {
+  padding-right: rem(80px);
+  @include phones {
+    padding-right: rem(25px);
+  }
+}
+.slider__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: rem(15px);
+  @include tablets {
+    justify-content: center;
+  }
+  @include small-phones {
+    align-items: center;
+  }
+}
+.slider__price {
+  font-size: rem(60px);
+  margin-left: rem(10px);
+  @include tablets {
+    margin-right: 10%;
+  }
+ @include phones {
+    font-size: rem(40px);
+  } 
+  @include small-phones {
+    font-size: rem(20px);
+  }
+}
+.slider__btn {
+  display: flex;
+  align-items: center;
+  margin-right: rem(20px);
+  @include small-phones {
+    margin-right: 0;
+  }
+}
+.slider__dropdown {
+  
+}
