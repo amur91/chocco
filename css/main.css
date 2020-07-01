@@ -1093,7 +1093,7 @@ template {
 
 .slider-section {
   position: relative;
-  background: url(../assets/pattern-slider-section.png) right bottom -60% no-repeat, #d1d1d1; }
+  background: url(../assets/pattern-slider-section.png) right bottom -60% no-repeat, #F8FAF9; }
   .slider-section:before {
     content: url(../assets/blueberries.png);
     position: absolute;
@@ -1109,13 +1109,18 @@ template {
   display: flex;
   align-items: center; }
 
-@media screen and (max-width: 768px) {
-  .slider__arrow_left {
-    margin-left: 10%; } }
+.slider__arrow_left {
+  transform: rotate(180deg);
+  margin-left: 5%; }
+  @media screen and (max-width: 768px) {
+    .slider__arrow_left {
+      margin-left: 10%; } }
 
-@media screen and (max-width: 768px) {
-  .slider__arrow_right {
-    margin-right: 10%; } }
+.slider__arrow_right {
+  margin-right: 5%; }
+  @media screen and (max-width: 768px) {
+    .slider__arrow_right {
+      margin-right: 10%; } }
 
 .slider__arrow-svg {
   width: 1rem;
@@ -1204,13 +1209,15 @@ template {
 
 .slider__price {
   font-size: 3.3333333333rem;
-  margin-left: 0.5555555556rem; }
+  margin-left: 0.5555555556rem;
+  display: flex;
+  align-items: center; }
   @media screen and (max-width: 768px) {
     .slider__price {
       margin-right: 10%; } }
   @media screen and (max-width: 480px) {
     .slider__price {
-      font-size: 2.2222222222rem; } }
+      font-size: 1.3888888889rem; } }
   @media screen and (max-width: 375px) {
     .slider__price {
       font-size: 1.1111111111rem; } }
