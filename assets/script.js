@@ -1,3 +1,5 @@
+///Выпадающее меню
+
 const openHamburger = document.querySelector("#hamburger");
 const menu = document.querySelector(".sidebar");
 const cross = document.querySelector(".sidebar__close-icon");
@@ -11,4 +13,6 @@ cross.addEventListener("click", e => {
   e.preventDefault();
   menu.style.display = "none";
 });
+
+///Слайдшоу
 

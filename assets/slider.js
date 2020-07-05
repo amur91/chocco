@@ -1,0 +1,1 @@
+$('.slider__display').bxSlider();

@@ -725,13 +725,32 @@ template {
     transform: translateX(-50%);
     top: -3.6111111111rem; }
 
-.rewiews__display-inner {
+.reviews__display-inner {
   display: flex; }
   @media screen and (max-width: 768px) {
-    .rewiews__display-inner {
+    .reviews__display-inner {
       flex-direction: column;
       text-align: center;
       align-items: center; } }
+
+.reviews__list {
+  position: relative;
+  min-height: 15.5555555556rem; }
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  transition: .3s;
+  opacity: 0; }
+
+.reviews__item_active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset; }
 
 .reviews__avatar {
   width: 14.1111111111rem;
@@ -1086,8 +1105,8 @@ template {
 
 .sidebar__close-icon {
   position: absolute;
-  top: 0.5555555556rem;
-  right: 0.5555555556rem;
+  top: 1.3888888889rem;
+  right: 1.3888888889rem;
   width: 1.1111111111rem;
   height: 1.1111111111rem; }
 
@@ -1264,5 +1283,56 @@ template {
   display: inline-flex;
   padding-left: 1.3888888889rem;
   padding-right: 1.3888888889rem; }
+
+.team {
+  display: flex;
+  justify-content: space-between; }
+
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%; }
+@media screen and (max-width: 768px) {
+  .team--version--desktop {
+    display: none; } }
+
+.team--version--mobile {
+  flex-direction: column;
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .team--version--mobile {
+      display: flex; } }
+
+.team__item {
+  margin-right: 1.1111111111rem;
+  text-align: center; }
+  .team__item:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .team__item {
+      text-align: center;
+      margin-right: 0; } }
+
+.team__title {
+  font-style: 21px;
+  font-weight: 700; }
+  .team__title:before {
+    content: url(); }
+
+.team__svg {
+  height: 6px;
+  width: 9px; }
+
+.team__content {
+  overflow: hidden;
+  margin: auto;
+  transition: height .3s;
+  height: 0;
+  width: 23%; }
+
+.team__occ {
+  font-weight: 700; }
+
+.team__content-block {
+  height: 19.4444444444rem; }
 
 /*# sourceMappingURL=main.css.map */
