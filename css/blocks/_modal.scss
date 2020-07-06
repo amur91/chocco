@@ -1,0 +1,18 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  width: rem(200px);
+  height: rem(200px);
+  border: 1px solid $green;
+}
+.modal__content {
+  margin-bottom: rem(20px);
+}

@@ -1335,4 +1335,22 @@ template {
 .team__content-block {
   height: 19.4444444444rem; }
 
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  width: 11.1111111111rem;
+  height: 11.1111111111rem;
+  border: 1px solid #365a49; }
+
+.modal__content {
+  margin-bottom: 1.1111111111rem; }
+
 /*# sourceMappingURL=main.css.map */
