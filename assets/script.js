@@ -13,6 +13,3 @@ cross.addEventListener("click", e => {
   e.preventDefault();
   menu.style.display = "none";
 });
-
-///Слайдшоу
-

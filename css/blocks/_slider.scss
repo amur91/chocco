@@ -73,9 +73,10 @@
   font-weight: 700;
   position: relative;
 }
+
 .slider__bar-img {
-  width: 20%;
-  height: 20%;
+  width: rem(70px);
+  height: rem(70px);
   fill: white;
 }
 .slider__title {
@@ -133,7 +134,4 @@
   @include small-phones {
     margin-right: 0;
   }
-}
-.slider__dropdown {
-  
 }
