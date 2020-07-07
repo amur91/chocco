@@ -1,23 +1,28 @@
 .slider {
+  color: black;
+}
+.slider__window {
   display: flex;
   justify-content: space-between;
-  color: black;
 }
 .slider__arrow {
   display: flex;
   align-items: center;
+  @include phones {
+    display: none;
+  }
 }
 .slider__arrow_left {
   transform:rotate(180deg);
   margin-left: 5%;
   @include tablets {
-    margin-left: 10%;
+    margin-left: 0;
   }
 }
 .slider__arrow_right {
   margin-right: 5%;
   @include tablets {
-    margin-right: 10%;
+    margin-right: 0;
   }
 }
 .slider__arrow-svg {
@@ -27,14 +32,14 @@
 }
 .slider__display {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
   @include tablets {
     flex-direction: column;
   }
 }
 .slider__banner {
-  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .slider__information {
   display: flex;
@@ -44,6 +49,7 @@
   padding: 0 rem(50px);
   @include phones {
     text-align: center;
+    padding: 0;
   }
 } 
 .slider__features {
@@ -68,8 +74,8 @@
   position: relative;
 }
 .slider__bar-img {
-  width: rem(70px);
-  height: rem(70px);
+  width: 20%;
+  height: 20%;
   fill: white;
 }
 .slider__title {

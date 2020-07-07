@@ -9,10 +9,13 @@
   justify-content: center;
   text-align: center;
   border-radius: 5px;
-  width: rem(200px);
+  width: rem(250px);
   height: rem(200px);
   border: 1px solid $green;
 }
 .modal__content {
   margin-bottom: rem(20px);
+}
+.input-error {
+  border-color: red;
 }
