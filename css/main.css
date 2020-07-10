@@ -1362,4 +1362,7 @@ template {
 .input-error {
   border-color: red; }
 
+.error-modal {
+  color: red; }
+
 /*# sourceMappingURL=main.css.map */
