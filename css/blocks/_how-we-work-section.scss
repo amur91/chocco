@@ -7,6 +7,7 @@
     position: absolute;
     bottom: -15%;
     right: 0;
+    z-index: 15;
     }
   &:after {
     content: url(../assets/video-section-leaves.png);
