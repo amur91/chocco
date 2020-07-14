@@ -1,4 +1,4 @@
-const valideteFields = (form, fieldsArray) => {
+const validateFields = (form, fieldsArray) => {
   fieldsArray.forEach((field) => {
     field.removeClass("input-error");
     if (field.val().trim() == "") {
@@ -20,12 +20,12 @@ $(".form").submit((e) => {
   const comment = form.find("[name='comment']");
   const to = form.find("[name='to']");
 
-  const modal = $("modal");
+  const modal = $(".modal");
   const content = modal.find(".modal__content");
 
   modal.removeClass("error-modal");
 
-  const isValid = valideteFields(form, [name, comment, to]);
+  const isValid = validateFields(form, [name, comment, to]);
 
   if (isValid) {
     const request = $.ajax({
@@ -40,7 +40,8 @@ $(".form").submit((e) => {
       error: data => {},
     });
     request.done(data => {
-
+      const message = data.message;
+      content.text(message);
     })
     request.fail(data => {
       const message = data.responseJSON.message;

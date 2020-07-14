@@ -16,7 +16,7 @@
 <body>
   <div class="wrapper">
     <div class="maincontent">
-      <section class="section hero">
+      <section data-section-id="hero" data-sidemenu-theme="white" class="section hero">
         <div class="container hero__container">
           <header class="header">
             <a href="./index.html" class="logo">
@@ -25,25 +25,25 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__link">О нас</a>
+                  <a href="#" data-scroll-to="benefits" class="menu__link">О нас</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Батончики</a>
+                  <a href="#" data-scroll-to="slider" class="menu__link">Батончики</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Команда</a>
+                  <a href="#"  data-scroll-to="team" class="menu__link">Команда</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Меню</a>
+                  <a href="#"  data-scroll-to="products" class="menu__link">Меню</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="#" data-scroll-to="reviews" class="menu__link">Отзывы</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Как мы работаем</a>
+                  <a href="#" data-scroll-to="how-we-work" class="menu__link">Как мы работаем</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Контакты</a>
+                  <a href="#" data-scroll-to="map"class="menu__link">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -65,7 +65,7 @@
             </h1>
             <div class="hero__title-description">Наши батончики идеально подходят для тех, кто следит за своим здоровьем
             </div>
-            <a href="#" class="btn btn_white btn-hero">Заказать</a>
+            <a href="#" data-scroll-to="order" class="btn btn_white btn-hero">Заказать</a>
           </div>
           <div class="hero__icons-section">
             <ul class="features">
@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="section benefits-section">
+      <section data-section-id="benefits" data-sidemenu-theme="black" class="section benefits-section">
         <div class="container">
           <div class="headline">
             <h2 class="section__title headline__title">Почему Chocco?</h2>
@@ -146,7 +146,7 @@
           </ul>
         </div>
       </section>
-      <section class="section slider-section">
+      <section data-section-id="slider" data-sidemenu-theme="black" class="section slider-section">
         <div class="container">
           <div class="slider__window">
             <div class="slider__arrow slider__arrow_left">
@@ -440,7 +440,7 @@
           </div>
         </div>
       </section>
-      <section class="section team-section">
+      <section data-section-id="team" data-sidemenu-theme="black" class="section team-section">
         <div class="container">
           <div class="section__title">Команда</div>
           <div class="team-container">
@@ -555,7 +555,60 @@
           </div>
         </div>
       </section>
-      <section class="section reviews-section">
+      <section data-section-id="products" data-sidemenu-theme="white" class="section products-menu-section">
+        <h1 class="section__title product-section-title">Меню</h1>
+        <ul class="product-menu">
+          <li class="product-menu__item">
+            <a href="#" class="product-menu__title">
+              <img src="./assets/coco.jpg" class="product-menu__image">
+              <div class="product-menu__text">Батончики с молоком</div>
+            </a>
+            <div class="product-menu__content">
+              <div class="product-menu__container">
+                <button class="product-menu__close" type="button">
+                  <svg class="product-menu__close-icon">
+                    <use xlink:href=./assets/sprite.svg#close></use>
+                  </svg>
+                </button>
+                <div class="product-menu__content-text">Рекомендуем употреблять батончики вместе с кокосовым или миндальным молоком. Так и вкуснее, и полезнее. Ну чего ещё хотеть от жизни? Батончик – он твой лучший друг и радует всех вокруг. Как классно, что можно питаться полезно и вкусно, а не как попало. Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто. Надо бы, кстати, бабулю поздравить с днём Победы. </div>
+              </div>
+            </div>
+          </li>
+          <li class="product-menu__item">
+            <a href="#" class="product-menu__title">
+              <img src="./assets/granola.jpg" class="product-menu__image">
+              <div class="product-menu__text">С медом и фруктами</div>
+            </a>
+            <div class="product-menu__content">
+              <div class="product-menu__container">
+                <button class="product-menu__close" type="button">
+                  <svg class="product-menu__close-icon">
+                    <use xlink:href=./assets/sprite.svg#close></use>
+                  </svg>
+                </button>
+                <div class="product-menu__content-text">Рекомендуем употреблять батончики вместе с кокосовым или миндальным молоком. Так и вкуснее, и полезнее. Ну чего ещё хотеть от жизни? Батончик – он твой лучший друг и радует всех вокруг. Как классно, что можно питаться полезно и вкусно, а не как попало. Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто. Надо бы, кстати, бабулю поздравить с днём Победы. </div>
+              </div>
+            </div>
+          </li>
+          <li class="product-menu__item">
+            <a href="#" class="product-menu__title">
+              <img src="./assets/berries-menu.jpg" class="product-menu__image">
+              <div class="product-menu__text">Дикие ягоды</div>
+            </a>
+            <div class="product-menu__content">
+              <div class="product-menu__container">
+                <button class="product-menu__close" type="button">
+                  <svg class="product-menu__close-icon">
+                    <use xlink:href=./assets/sprite.svg#close></use>
+                  </svg>
+                </button>
+                <div class="product-menu__content-text">Рекомендуем употреблять батончики вместе с кокосовым или миндальным молоком. Так и вкуснее, и полезнее. Ну чего ещё хотеть от жизни? Батончик – он твой лучший друг и радует всех вокруг. Как классно, что можно питаться полезно и вкусно, а не как попало. Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто. Надо бы, кстати, бабулю поздравить с днём Победы. </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section data-section-id="reviews" data-sidemenu-theme="black" class="section reviews-section">
         <div class="container">
           <h2 class="section__title">Отзывы</h2>
           <div class="reviews">
@@ -631,7 +684,37 @@
           </div>
         </div>
       </section>
-      <section class="section order-section section_font-color_green">
+      <section data-section-id="how-we-work" data-sidemenu-theme="black" class="section how-we-work-section">
+        <div class="container video-container">
+          <h1 class="section__title how-we-work__title">Как мы работаем</h1>
+          <div class="player">
+              <div class="player__wrapper">
+                  <div id="yt-player" class="player__elem">
+                  </div>
+                  <div class="player__splash">
+                      <img src="https://2.downloader.disk.yandex.ru/preview/6317430f6f9c818a8a09ede65fd1d1bd5d0b232961143467a954f1398842960d/inf/YqWSd-00HcLp8XEXHs-5th6DcDR5mbi9_EZPJrtm7feyRiLKIuUQJzYOeMeYmG0uAwHkEOS88F0SeARkkEzCyA%3D%3D?uid=208008506&filename=videocover.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=208008506&tknv=v2&size=1903x937" alt="">
+                  </div>
+              </div>
+              <div class="player__controls">
+                  <button class="player__start"></button>
+                  <div class="player__playback">
+                      <button class="player__playback-button"></button>
+                  </div>
+                  <div class="player__volume">
+                    <button class="volume__pic"></button>
+                    <div class="volume__playback">
+                      <button class="volume__playback-button"></button>
+                    </div>
+                  </div>
+                  <div class="player__duration">
+                      <span class="player__duration-completed">0:00</span>
+                      <span class="player__duration-estimated">0:00</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section data-section-id="order" data-sidemenu-theme="white" class="section order-section section_font-color_green">
         <div class="container">
           <h2 class="section__title">Закажите доставку</h2>
           <form class="form" id="form">
@@ -714,7 +797,8 @@
           </form>
         </div>
       </section>
-      <section class="section map-section">
+      <section data-section-id="map" data-sidemenu-theme="black" class="section map-section">
+        <div class="map" id="map"></div>
         <footer class="footer">
           <div class="container footer-container">
             <address class="contacts">
@@ -770,31 +854,31 @@
   <nav class="fixed-menu">
     <ul class="fixed-menu__list">
       <li class="fixed-menu__item fixed-menu__item_active">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="hero" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="benefits" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="slider" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="team" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="products" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="reviews" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="how-we-work" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="order" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="map" class="fixed-menu__link"></a>
       </li>
     </ul>
   </nav>
@@ -829,11 +913,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="./assets/jquery.fancybox.min.js"></script>
+  <script src="./assets/jquery.touchSwipe.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript">
+  </script>
+  <script src="./assets/mobile-detect.min.js"></script>
   <script src="./assets/slider.js"></script>
   <script src="./assets/script.js"></script>
   <script src="./assets/slideshow.js"></script>
   <script src="./assets/acco.js"></script>
   <script src="./assets/modal.js"></script>
+  <script src="./assets/menu-acco.js"></script>
+  <script src="./assets/ops.js"></script>
+  <script src="./assets/player.js"></script>
+  <script src="./assets/map.js"></script>
 </body>
 
 </html>

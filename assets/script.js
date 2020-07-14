@@ -2,7 +2,8 @@
 
 const openHamburger = document.querySelector("#hamburger");
 const menu = document.querySelector(".sidebar");
-const cross = document.querySelector(".sidebar__close-icon");
+const cross = menu.querySelector(".sidebar__close-icon");
+
 
 openHamburger.addEventListener("click", e => {
   e.preventDefault();
@@ -11,5 +12,6 @@ openHamburger.addEventListener("click", e => {
 
 cross.addEventListener("click", e => {
   e.preventDefault();
+  console.log(e.target);
   menu.style.display = "none";
 });

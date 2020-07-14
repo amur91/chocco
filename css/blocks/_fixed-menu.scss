@@ -3,6 +3,22 @@
   right: 3%;
   top: 20%;
   z-index: 100;
+  @include tablets {
+    display: none;
+  }
+}
+.fixed-menu_shadowed {
+  .fixed-menu__item_active {
+    .fixed-menu__link{
+      border-color: black;
+    }
+    
+  }
+  .fixed-menu__link:before {
+    background: black;
+  }
+
+
 }
 .fixed-menu__item {
   margin-bottom: rem(5px);

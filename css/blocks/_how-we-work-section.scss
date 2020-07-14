@@ -1,0 +1,17 @@
+.how-we-work-section {
+  justify-content: flex-start;
+  position: relative;
+
+  &:before {
+    content: url(../assets/blackberry-and-leaves.png);
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+    }
+  &:after {
+    content: url(../assets/video-section-leaves.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
